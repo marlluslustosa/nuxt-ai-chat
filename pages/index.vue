@@ -2,7 +2,7 @@
 	const messages = ref([
 		{
 			role: 'AI',
-			message: 'Hello! How can I help you?'
+			message: 'Olá! Em que posso lhe ajudar sobre informações do Super Sapiens?'
 		}
 	]);
 	const loading = ref(false);
@@ -52,13 +52,9 @@
 
 <template>
 	<div class="max-w-xl mx-auto text-black">
-		<a
-			href="https://vercel.com/templates/next.js/blob-sveltekit"
-			class="flex justify-center px-10 py-2 mx-auto space-x-1 text-sm font-medium text-center text-gray-600 transition-all rounded-full shadow-sm group bg-white/30 ring-1 ring-gray-900/5 hover:shadow-lg active:shadow-sm"
-		>
-			Deploy your own to Vercel
-		</a>
-		<h1 class="my-8 text-5xl font-bold text-center text-black">AI Chatbot</h1>
+		<h1 class="my-8 text-5xl font-bold text-center text-black">PoC - LLM AI</h1>
+		<h1 class="my-8 text-5xl font-bold text-center text-black">Chatbot - <a href="https://www.gov.br/agu/pt-br/composicao/cgu/cgu/guias/guia-sapiens-2-0_atualizado_v-1-8-3_4-2022.pdf" class="underline transition-colors hover:text-black/70" target="_blank">Super Sapiens</a></h1>
+		<h1 class="my-8 text-2xl font-bold text-center text-black">Por: <a href="https://marllus.com" class="underline transition-colors hover:text-black/70" target="_blank">Marllus Lustosa</a></h1>
 		<div class="max-w-xl mx-auto">
 			<div class="bg-white rounded-md shadow h-[60vh] flex flex-col justify-between">
 				<div class="h-full overflow-auto chat-messages">
@@ -83,7 +79,7 @@
 						<input
 							v-model="message"
 							type="text"
-							placeholder="Type here..."
+							placeholder="Digite aqui sua dúvida..."
 							class="w-full p-1 text-sm text-black bg-transparent bg-gray-100 border rounded-md shadow border-white/40 grow"
 						/>
 						<button
@@ -120,14 +116,14 @@
 		</div>
 		<div class="flex flex-col justify-center w-full my-4">
 			<div class="flex items-center justify-center my-2">
-				<span>Built with</span>
+				<span>Construído com</span>
 				<a
 					href="https://openai.com/blog/gpt-3-apps"
 					class="flex items-center mx-1 font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
 					<p>gpt-3</p>
 				</a>
-				<span>and</span>
+				<span>e</span>
 				<a
 					href="https://nuxt.com/docs"
 					class="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
