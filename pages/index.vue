@@ -2,7 +2,7 @@
 	const messages = ref([
 		{
 			role: 'AI',
-			message: 'Olá! Em que posso lhe ajudar sobre informações do Super Sapiens?'
+			message: 'Olá! Em que posso lhe ajudar sobre o Super Sapiens?'
 		}
 	]);
 	const loading = ref(false);
@@ -138,7 +138,7 @@
 					<img src="/vercel.svg" alt="Vercel Logo" class="h-4 my-2 text-white" />
 				</a>
 				<a
-					href="https://github.com/StephDietz/nuxt-ai-chat"
+					href="https://github.com/marlluslustosa/nuxt-ai-chat"
 					class="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
 					<img src="/github.svg" alt="GitHub Logo" class="h-4" />
