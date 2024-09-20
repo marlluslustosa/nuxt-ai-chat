@@ -2,7 +2,7 @@
 	const messages = ref([
 		{
 			role: 'AI',
-			message: 'Olá! Em que posso lhe ajudar sobre o Super Sapiens?'
+			message: 'Olá! Sou um assistente virtual que acredita ser capaz de responder sobre as referências utilizadas durante a disciplina de Educação Brasileira, ministrada pelo Prof. Ari de Andrade, do PPGE-UFC. Em que posso lhe ajudar?'
 		}
 	]);
 	const loading = ref(false);
@@ -52,9 +52,9 @@
 
 <template>
 	<div class="max-w-xl mx-auto text-black">
-		<h1 class="my-8 text-5xl font-bold text-center text-black">PoC - LLM AI</h1>
-		<h1 class="my-8 text-5xl font-bold text-center text-black">Chatbot - <a href="https://www.gov.br/agu/pt-br/composicao/cgu/cgu/guias/guia-sapiens-2-0_atualizado_v-1-8-3_4-2022.pdf" class="underline transition-colors hover:text-black/70" target="_blank">Super Sapiens</a></h1>
-		<h1 class="my-8 text-2xl font-bold text-center text-black">Por: <a href="https://marllus.com" class="underline transition-colors hover:text-black/70" target="_blank">Marllus Lustosa</a></h1>
+		<h1 class="my-8 text-5xl font-bold text-center text-black">Um assistente quase inteligente</h1>
+		<h2 class="my-8 text-3xl font-bold text-center text-black">Chatbot sobre Educação Brasileira</h2>
+		<h3 class="my-8 text-2xl font-bold text-center text-black">Por: <a href="https://marllus.com" class="underline transition-colors hover:text-black/70" target="_blank">Marllus Lustosa</a></h3>
 		<div class="max-w-xl mx-auto">
 			<div class="bg-white rounded-md shadow h-[60vh] flex flex-col justify-between">
 				<div class="h-full overflow-auto chat-messages">
