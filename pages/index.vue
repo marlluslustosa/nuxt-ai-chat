@@ -53,7 +53,7 @@
 <template>
 	<div class="max-w-xl mx-auto text-black">
 		<h1 class="my-8 text-5xl font-bold text-center text-black">Um assistente quase inteligente</h1>
-		<h2 class="my-8 text-3xl font-bold text-center text-black">Chatbot sobre Educação Brasileira</h2>
+		<h2 class="my-8 text-3xl font-bold text-center text-black">Chatbot sobre <a href="https://marllus.com/anexos/Todos_os_artigos_edbr.pdf" class="underline transition-colors hover:text-black/70" target="_blank">Educação Brasileira</a></h2>
 		<h3 class="my-8 text-2xl font-bold text-center text-black">Por: <a href="https://marllus.com" class="underline transition-colors hover:text-black/70" target="_blank">Marllus Lustosa</a></h3>
 		<div class="max-w-xl mx-auto">
 			<div class="bg-white rounded-md shadow h-[60vh] flex flex-col justify-between">
